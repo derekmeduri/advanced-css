@@ -1,0 +1,35 @@
+* {
+margin: 5px;
+padding: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+header, footer {
+    height: 50px;
+    width: 100%;
+   position: fixed;
+}
+
+footer {
+    justify-content: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact
+{
+    display: flex;
+}
+
+.contact-card {
+    padding: 5px;
+    margin: 10px;
+}
