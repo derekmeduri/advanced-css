@@ -1,28 +1,64 @@
+:root {
+    --navy: #002664;
+    --gold: #eaab00;
+}
+
 * {
 margin: 5px;
 padding: 5px;
 }
 
+html
+
 nav {
     display: flex;
     justify-content: flex-end;
+    text-decoration: none;
+    
    
 }
 
+nav a {
+    color: var(--gold);
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
 header, footer {
-    height: 50px;
+    height: ;
     width: 100%;
-   position: fixed;
+   position: relative;
+   background-color: var(--navy)
 }
 
 footer {
+    display: flex;
     justify-content: center;
+    color: var(--gold);
+
 }
 
 .projects {
     display: flex;
     flex-wrap: wrap;
 }
+
+.projects-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.projects-card { 
+display: flex;
+flex-direction: column;
+
+}
+
 
 .contact
 {
@@ -32,4 +68,9 @@ footer {
 .contact-card {
     padding: 5px;
     margin: 10px;
+    background-color: var(--navy) ;
+}
+
+.contact-card a {
+    color: var(--gold);
 }
