@@ -161,12 +161,10 @@ footer {
 }
 
 
-
-
 .project2-img {
     background-image: url("/assets/IMG_2093.JPG");
     width: 40%;
-   min-height: 300px;
+    min-height: 300px;
     background-color: #002664;
     margin: 1.25rem;
 
