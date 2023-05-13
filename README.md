@@ -16,3 +16,5 @@ Office hours with Juan Torres to go over flexbox layout
 Office hours and tutoring session with Samuel Cordova to discuss flexbox layouts, using background images and flex.
 
 deploy link: https://derekmeduri.github.io/advanced-css/
+
+![Preview of application](images/advancedcss.png)
