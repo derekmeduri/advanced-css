@@ -10,7 +10,9 @@ https://nekocalc.com/px-to-rem-converter
 
 media screen query referenced from OSU-VIRT-FSF-PT-04-2023-U-LOLC advanced css activity 1.
 
-referenced code from OSU-VIRT-FSF-PT-04-2023-U-LOLC slack channel prepared by staff
+referenced hw week2 snippet code from OSU-VIRT-FSF-PT-04-2023-U-LOLC slack channel prepared by staff.
 
 Office hours with Juan Torres to go over flexbox layout
 Office hours and tutoring session with Samuel Cordova to discuss flexbox layouts, using background images and flex.
+
+deploy link: https://derekmeduri.github.io/advanced-css/
