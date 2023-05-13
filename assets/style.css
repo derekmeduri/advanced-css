@@ -84,12 +84,15 @@ footer {
     
 }
 
-.photo {
-    display: block;
-    width: 700px;
-    height: 500px;
+.portrait {
+    background-image: url("../images/derek.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 500px;
     padding: 1rem;
-    margin: auto;
+    margin: 10px;
+    background-color: white;
    
 
 }
@@ -114,11 +117,8 @@ footer {
 }
 
 .page-section{
-  
     display: flex;
-   
     flex-wrap: wrap;
-
     width: 100%;
   
 
@@ -162,15 +162,23 @@ footer {
 
 
 .project2-img {
-    background-image: url("../images/IMG_2093.JPG");
+    background-image: url("../images/advancedcss.png");
     width: 40%;
     min-height: 300px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 300px;
     background-position: center;
     background-color: #002664;
     margin: 1.25rem;
 
+}
+
+h3 {
+    background-color: #eaab00;
+    color: #002664;
+    width: fit-content;
+    padding: 1.5rem;
+    margin: 1.5rem;
 }
 
 .contact
