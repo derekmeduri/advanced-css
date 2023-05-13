@@ -150,8 +150,8 @@ footer {
     background-image: url('../images/Horiseon.jpg');
     width: 100%;
     min-height: 400px;
+    background-size: 100% 400px;
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center;
     margin-left: 1.25rem;
     background-color: #002664;
