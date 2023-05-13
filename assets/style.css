@@ -214,13 +214,11 @@ h3 {
 }
 
 /* media queries
-/* 
+
 /* Tablets -  */
 
 @media screen and (max-width: 992px) {
-    header {
-      
-    }
+   
   }
   
   /* Large smartphones */
@@ -232,12 +230,7 @@ h3 {
       .contact-card a {
         padding: 0.75rem;
     }
-    p {
-     
-       
-      
-        }
-  }
+}
   
   /* Small smartphones */
   @media screen and (max-width: 576px) {
@@ -245,5 +238,4 @@ h3 {
       font-size: 1.5rem;
 
     }
-    
-  }
+     }
