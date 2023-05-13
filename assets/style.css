@@ -1,46 +1,49 @@
+
+/* global selector */
 * {
    box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     }
-
+/* creates selectors for the var function*/
 :root {
     --navy: #002664;
     --gold: #eaab00;
 }
 
 
-
+/* header styling*/
 header{
     display: flex ;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    height: 5rem;
+    
     width: 100%;
     background-color: var(--navy);
     margin: 0;
 }
 
+/* nav bar styling*/
 nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     text-decoration: none;
-    padding-left: 30%;
+    
   
 }
-
+/* adding spacing for the nav links */
 nav li {
     padding: 0.5rem;
     
 }
-
+/*adding color to nav link*/
 nav a {
     color: var(--gold);
 
 }
-
+/*name/logo styling in the header*/
 header h1 {
     color: var(--gold);
     font-size: 3rem;
@@ -50,12 +53,12 @@ header h1 {
    
     
 }
-
+/*removing bullets from list items*/
 li {
     text-decoration: none;
     list-style-type: none;
 }
-
+/*footer styling*/
 footer {
     height: 3.125rem;
     width: 100%;
@@ -68,7 +71,7 @@ footer {
     padding: 0;
 }
 
-
+/* styling for the section headers */
 .headers {
     
     justify-content: flex-start;
@@ -83,20 +86,20 @@ footer {
 
     
 }
-
+/* styling on image */
 .portrait {
     background-image: url("../images/derek.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 500px;
+    min-height: 31.25rem;
     padding: 1rem;
-    margin: 10px;
+    margin: 0.625rem;
     background-color: white;
    
 
 }
-
+/*about me styling*/
  p {
     display: flex;
     flex-wrap: wrap;
@@ -108,14 +111,14 @@ footer {
    
   
     }
-
+/*setting up a page container*/
 .page-wrapper {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 
 }
-
+/* creating the section container*/
 .page-section{
     display: flex;
     flex-wrap: wrap;
@@ -123,14 +126,18 @@ footer {
   
 
 }
+
+/* sizing on the section headers */
 .page-section > h2 {
     flex: 0 0 20%;
 
 }
+/* flex layout for prev apps main image*/
 .page-section > div {
     flex: 0 0 75%;
 }
 
+/* creating flex box for project section */
 .projects {
 
     display: flex;
@@ -138,6 +145,7 @@ footer {
 
    
 }
+/*container for the projects section */
 
 .project-container {
     display: flex;
@@ -145,12 +153,12 @@ footer {
     width: 100%;
 }
 
-
+/* background image used for prev applications img */
 .project1-img {
     background-image: url('../images/Horiseon.jpg');
     width: 100%;
-    min-height: 400px;
-    background-size: 100% 400px;
+    min-height: 25rem;
+    background-size: 100% 25rem;
     background-repeat: no-repeat;
     background-position: center;
     margin-left: 1.25rem;
@@ -160,27 +168,29 @@ footer {
 
 }
 
-
+/* background image used for prev applications img */
 .project2-img {
     background-image: url("../images/advancedcss.png");
-    width: 40%;
-    min-height: 300px;
+    width: 45%;
+    min-height: 18.75rem;
     background-repeat: no-repeat;
-    background-size: 100% 300px;
+    background-size: 100% 18.75rem;
     background-position: center;
     background-color: #002664;
     margin: 1.25rem;
 
 }
-
+/* styling on the text box labels */
 h3 {
     background-color: #eaab00;
     color: #002664;
     width: fit-content;
     padding: 1.5rem;
-    margin: 1.5rem;
-}
+    position: relative;
+    top: 70%;
 
+}
+/* layout for the contact section */
 .contact
 {
     display: flex;
@@ -188,13 +198,14 @@ h3 {
     padding-left: 2rem;
 
 }
-
+/* styling for the contact card text */
 .contact-card {
     display: flex;
     justify-content: center;
   font-size: 1.5rem;
 }
 
+/* styling for the contact card button look */
 .contact-card a {
     color: var(--gold);
     background-color: var(--navy);
@@ -202,3 +213,37 @@ h3 {
     margin: 1.5rem;
 }
 
+/* media queries
+/* 
+/* Tablets -  */
+
+@media screen and (max-width: 992px) {
+    header {
+      
+    }
+  }
+  
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+     .headers {
+        font-size: 1.5rem;
+  
+      }
+      .contact-card a {
+        padding: 0.75rem;
+    }
+    p {
+     
+       
+      
+        }
+  }
+  
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+    .headers {
+      font-size: 1.5rem;
+
+    }
+    
+  }
