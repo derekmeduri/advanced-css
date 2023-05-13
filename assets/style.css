@@ -230,7 +230,18 @@ h3 {
       .contact-card a {
         padding: 0.75rem;
     }
+    .project2-img {
+        width: 100%;
+    }
+    h3 {
+        background-color: #eaab00;
+        color: #002664;
+        width: fit-content;
+        padding: 0.75rem;
+        position: relative;
+        top: 70%;
 }
+  }
   
   /* Small smartphones */
   @media screen and (max-width: 576px) {
