@@ -93,7 +93,7 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 31.25rem;
-    padding: 1rem;
+    padding: 10rem;
     margin: 0.625rem;
     background-color: white;
    
@@ -123,13 +123,14 @@ footer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-  
-
+    padding-bottom: 5%;
+    justify-content: center;
 }
 
 /* sizing on the section headers */
 .page-section > h2 {
     flex: 0 0 20%;
+    margin: 0%;
 
 }
 /* flex layout for prev apps main image*/
@@ -155,7 +156,7 @@ footer {
 
 /* background image used for prev applications img */
 .project1-img {
-    background-image: url('../images/Horiseon.jpg');
+    background-image: url(../images/nebulasfables.png);
     width: 100%;
     min-height: 25rem;
     background-size: 100% 25rem;
@@ -170,6 +171,30 @@ footer {
 
 /* background image used for prev applications img */
 .project2-img {
+    background-image: url("../images/weatherforecast.png");
+    width: 45%;
+    min-height: 18.75rem;
+    background-repeat: no-repeat;
+    background-size: 100% 18.75rem;
+    background-position: center;
+    background-color: #002664;
+    margin: 1.25rem;
+
+}
+
+.project3-img {
+    background-image: url("../images/Horiseon.jpg");
+    width: 45%;
+    min-height: 18.75rem;
+    background-repeat: no-repeat;
+    background-size: 100% 18.75rem;
+    background-position: center;
+    background-color: #002664;
+    margin: 1.25rem;
+
+}
+
+.project4-img {
     background-image: url("../images/advancedcss.png");
     width: 45%;
     min-height: 18.75rem;
